@@ -38,5 +38,19 @@
 		<input type=submit value="送信">
 		<!--送信ボタン-->
 	</form>
+	
+	<p>
+        <strong><span th:text="${message}"></span></strong>
+    </p>
+     //掛け算
+    <form method="POST" action="resMultiply">
+    <input type="text" inputmode=decimal name="numA" value=0>
+    
+    <b>x</b>
+    
+    <input type="text" inputmode=decimal name="numB" value=0>
+    
+    <input type=submit value="送信">
+    </form>
 </body>
 </html>
